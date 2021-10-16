@@ -3,8 +3,6 @@ grid = []
 while len(grid) != 7:
     grid.append(["-", "-", "-", "-", "-", "-", "-"])
 
-#initialize turn order
-
 #REMINDER: grid[y][x]. y coordinate goes from top to bottom
 def printgrid():
     print("\n0 1 2 3 4 5 6")
